@@ -30,7 +30,6 @@ pages = list(range(1, int(last_page) + 1))
 print(pages)
 
 for page in pages:
-    #     url = 'https://www.lookup.pk/dynamic/search.aspx?searchtype=kl&k=gym&l=lahore&page=%s' %(page)
     #     url='https://www.99acres.com/new-projects-in-ahmedabad-ffid-page-'+str(page)+'-?sortby=default&noxid=Y&np_search_type=2028,2027,2026,2025,2024,2023,2022,2021,2020,NL,UC'
     url = 'https://www.99acres.com/new-projects-in-west-bengal-ffid-page-' + str(page) + '?np_search_type=NL'
     print(url)
